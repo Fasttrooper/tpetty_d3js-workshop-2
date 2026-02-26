@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/demo.css">
+</head>
+
+<body>
+    <h1>D3.js Fundamentals Demo</h1>
+    <div class="section">
+        <h2> Adapt Arc Diagram </h2>
+        <p> Run <a href="https://observablehq.com/@d3/arc-diagram">Arc Diagram with Les Miserables characters</a> locally </p>
+        <select id="order-select">
+            <option value="by name">by name</option>
+            <option value="by group">by group</option>
+            <option value="by degree">by degree</option>
+        </select>
+        <div id = "chart" class="demo-container">
+        </div>
+    </div>
+</body>
+<!-- D3.js Library -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<!-- Custom D3.js script to add visualizations -->
+<script type="module" src="js/demo.js"></script>
+
+</html>
